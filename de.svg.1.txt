@@ -1,0 +1,18 @@
+What is a viewbox?
+- it controls whats inside our viewable area
+the viewbox is kinda like the viwport, but it lets you scale out and in. It takes four attributes instead of two as viewport does. It takes a min-x, min-y,
+width and height. The viewbox defines the aspect ratio of the image. min-x and y determines where on the coordinates the viewbox starts. and the last two
+coordinates is the width and heights, it determines how many units the viewport spreads out. If you want to scale in and out on an image. If you make the width and height
+bigger, it makes a bigger viewbox, thus the image seems smaller. smaller viewbox = bigger image.
+
+What is a viewport?
+- its the size of the viewable area.
+A viewport is like a window, where you can see the svg. The size of the viewport determines how much, you can see. It does not determine the size of the svg. 
+So you might only be able to see part of a circle, if the viewport only allows that. But there might be a full circle over the viewport. You set the viewport
+size by adding height and width to the svg. As i understand the viewport is set up like a coordinate system with a positve x and y axis. 
+
+How do they relate to each other?
+- viewport sets the dimensions, viewbox controls the position and zoom.
+
+How to scale an SVG drawing's appearance on a web page?
+- you would use the viewbox width and heigh attributes. 
